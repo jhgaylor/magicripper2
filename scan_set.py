@@ -23,7 +23,8 @@ URL_RE = re.compile(r"../../Handlers/Image\.ashx\?multiverseid=(\d+)")
 ALT_VERSION_RE = \
   r"../Card/Details\.aspx\?multiverseid=(\d+)\"><img[^>]+set={0}&.*?>"
 
-class ScannerError(Exception): pass
+class ScannerError(Exception):
+    pass
 
 def scan_set(short_set):
     """ Fetch and scan search result pages for the given set until we don't

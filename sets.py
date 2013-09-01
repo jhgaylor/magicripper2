@@ -197,12 +197,12 @@ set_info = {
              alias="IA"),
 
     'INV': S(name="Invasion",
-             cards=355, # 350 "physical" cards, of which 5 are split cards 
-                        # which count double (and have two multiverse ids, 
+             cards=355, # 350 "physical" cards, of which 5 are split cards
+                        # which count double (and have two multiverse ids,
                         # one for each part)
              date="2000-10-02",
              alias="IN"),
-             
+
     'ISD': S(name="Innistrad",
              cards=284, # 264 "physical cards", 20 of which are double-faced
              date="2011-09-30"),
